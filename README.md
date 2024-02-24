@@ -30,6 +30,8 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 * React 
 * Vue
 * jQuery
+* Tailwind CSS
+* Radix
 * Git
 * Netlify
 

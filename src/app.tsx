@@ -1,4 +1,4 @@
-import { LucidePlus, LucideSearch, LucideFileDown, LucideMoreHorizontal, LucideFilter } from 'lucide-react'
+import { LucidePlus, LucideSearch, LucideFileDown, LucideMoreHorizontal, LucideFilter, LucideLoader2 } from 'lucide-react'
 import { Header } from './components/header'
 import { Tabs } from './components/tabs'
 import { Button } from './components/ui/button'
@@ -8,6 +8,8 @@ import { keepPreviousData, useQuery } from '@tanstack/react-query'
 import { Pagination } from './components/pagination'
 import { useSearchParams } from 'react-router-dom'
 import { useState } from 'react'
+import * as Dialog from '@radix-ui/react-dialog';
+
 
 export interface tagsResponse {
 	first: number
@@ -33,7 +35,7 @@ export function App() {
 
 	const page = searchParams.get('page') ? Number(searchParams.get('page')) : 1
 
-	const { data: tagsResponse, isLoading } = useQuery<tagsResponse>({
+	const { data: tagsResponse, isLoading, isFetching } = useQuery<tagsResponse>({
 		queryKey: ['get-tags', urlFilter, page],
 		queryFn: async () => {
 			const response = await fetch(`http://localhost:3333/tags?_page=${page}&_per_page=10&title=${urlFilter}`)
@@ -70,10 +72,31 @@ export function App() {
 			<main className="max-w-6xl mx-auto space-y-5">
 				<div className="flex items-center gap-3">
 					<h1 className="text-xl font-bold">Tags</h1>
-					<Button variant='primary'>
-						<LucidePlus className="size-3" />
-						Create new
-					</Button>
+					<Dialog.Root>
+						<Dialog.Trigger asChild>
+							<Button variant='primary'>
+								<LucidePlus className="size-3" />
+								Create new
+							</Button>
+						</Dialog.Trigger>
+
+						<Dialog.Portal>
+							<Dialog.Overlay className="fixed inset-0 bg-black/70" />
+							<Dialog.Content className="fixed space-y-10 p-10 right-0 top-0 bottom-0 h-screen min-w-[320px] z-10 bg-zinc-950 border-l border-zinc-900">
+								<div className="space-y-3">
+									<Dialog.Title className="text-xl font-bold">
+										Create tag
+									</Dialog.Title>
+									<Dialog.Description className="text-sm text-zinc-500">
+										Tags can be used to group videos about similar concepts.
+									</Dialog.Description>
+								</div>
+
+							</Dialog.Content>
+						</Dialog.Portal>
+					</Dialog.Root>
+
+					{isFetching && <LucideLoader2 className="size-4 animate-spin text-zinc-500" />}
 				</div>
 
 				<div className="flex items-center justify-between">
