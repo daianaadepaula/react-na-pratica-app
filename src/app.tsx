@@ -9,6 +9,7 @@ import { Pagination } from './components/pagination'
 import { useSearchParams } from 'react-router-dom'
 import { useState } from 'react'
 import * as Dialog from '@radix-ui/react-dialog';
+import { CreateTagForm } from './components/create-tag-form'
 
 
 export interface tagsResponse {
@@ -92,6 +93,8 @@ export function App() {
 									</Dialog.Description>
 								</div>
 
+								<CreateTagForm />
+								
 							</Dialog.Content>
 						</Dialog.Portal>
 					</Dialog.Root>
