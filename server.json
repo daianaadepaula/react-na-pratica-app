@@ -1,97 +1,574 @@
 {
-	"tags": [
-    {"title": "React", "amountOfVideos": 129},
-    {"title": "Angular", "amountOfVideos": 84},
-    {"title": "Vue", "amountOfVideos": 203},
-    {"title": "Python", "amountOfVideos": 175},
-    {"title": "Java", "amountOfVideos": 312},
-    {"title": "JavaScript", "amountOfVideos": 248},
-    {"title": "C++", "amountOfVideos": 191},
-    {"title": "HTML", "amountOfVideos": 55},
-    {"title": "CSS", "amountOfVideos": 107},
-    {"title": "Node.js", "amountOfVideos": 93},
-    {"title": "SQL", "amountOfVideos": 167},
-    {"title": "MongoDB", "amountOfVideos": 72},
-    {"title": "Django", "amountOfVideos": 118},
-    {"title": "Flask", "amountOfVideos": 40},
-    {"title": "Ruby on Rails", "amountOfVideos": 98},
-    {"title": "Swift", "amountOfVideos": 81},
-    {"title": "Kotlin", "amountOfVideos": 63},
-    {"title": "TensorFlow", "amountOfVideos": 143},
-    {"title": "PyTorch", "amountOfVideos": 97},
-    {"title": "Machine Learning", "amountOfVideos": 220},
-    {"title": "Deep Learning", "amountOfVideos": 175},
-    {"title": "Artificial Intelligence", "amountOfVideos": 312},
-    {"title": "Data Science", "amountOfVideos": 248},
-    {"title": "Big Data", "amountOfVideos": 191},
-    {"title": "Blockchain", "amountOfVideos": 55},
-    {"title": "Cryptocurrency", "amountOfVideos": 107},
-    {"title": "Cybersecurity", "amountOfVideos": 93},
-    {"title": "Network Security", "amountOfVideos": 167},
-    {"title": "Web Development", "amountOfVideos": 72},
-    {"title": "Mobile Development", "amountOfVideos": 118},
-    {"title": "Game Development", "amountOfVideos": 40},
-    {"title": "Virtual Reality", "amountOfVideos": 98},
-    {"title": "Augmented Reality", "amountOfVideos": 81},
-    {"title": "iOS Development", "amountOfVideos": 63},
-    {"title": "Android Development", "amountOfVideos": 143},
-    {"title": "UI/UX Design", "amountOfVideos": 97},
-    {"title": "Graphic Design", "amountOfVideos": 220},
-    {"title": "Digital Marketing", "amountOfVideos": 175},
-    {"title": "Content Marketing", "amountOfVideos": 312},
-    {"title": "Social Media Marketing", "amountOfVideos": 248},
-    {"title": "SEO", "amountOfVideos": 191},
-    {"title": "SEM", "amountOfVideos": 55},
-    {"title": "Email Marketing", "amountOfVideos": 107},
-    {"title": "Affiliate Marketing", "amountOfVideos": 93},
-    {"title": "E-commerce", "amountOfVideos": 167},
-    {"title": "Dropshipping", "amountOfVideos": 72},
-    {"title": "Entrepreneurship", "amountOfVideos": 118},
-    {"title": "Startup", "amountOfVideos": 40},
-    {"title": "Business Development", "amountOfVideos": 98},
-    {"title": "Product Management", "amountOfVideos": 81},
-    {"title": "Project Management", "amountOfVideos": 63},
-    {"title": "Agile Methodology", "amountOfVideos": 143},
-    {"title": "Scrum", "amountOfVideos": 97},
-    {"title": "Lean Startup", "amountOfVideos": 220},
-    {"title": "Leadership", "amountOfVideos": 175},
-    {"title": "Management", "amountOfVideos": 312},
-    {"title": "Finance", "amountOfVideos": 248},
-    {"title": "Accounting", "amountOfVideos": 191},
-    {"title": "Investing", "amountOfVideos": 55},
-    {"title": "Personal Finance", "amountOfVideos": 107},
-    {"title": "Real Estate", "amountOfVideos": 93},
-    {"title": "Stock Market", "amountOfVideos": 167},
-    {"title": "Cryptocurrency Trading", "amountOfVideos": 72},
-    {"title": "Forex Trading", "amountOfVideos": 118},
-    {"title": "Options Trading", "amountOfVideos": 40},
-    {"title": "Commodities Trading", "amountOfVideos": 98},
-    {"title": "Futures Trading", "amountOfVideos": 81},
-    {"title": "Technical Analysis", "amountOfVideos": 63},
-    {"title": "Fundamental Analysis", "amountOfVideos": 143},
-    {"title": "Risk Management", "amountOfVideos": 97},
-    {"title": "Trading Psychology", "amountOfVideos": 220},
-    {"title": "Portfolio Management", "amountOfVideos": 175},
-    {"title": "Wealth Management", "amountOfVideos": 312},
-    {"title": "Retirement Planning", "amountOfVideos": 248},
-    {"title": "Tax Planning", "amountOfVideos": 191},
-    {"title": "Estate Planning", "amountOfVideos": 55},
-    {"title": "Insurance", "amountOfVideos": 107},
-    {"title": "Health Insurance", "amountOfVideos": 93},
-    {"title": "Life Insurance", "amountOfVideos": 167},
-    {"title": "Car Insurance", "amountOfVideos": 72},
-    {"title": "Home Insurance", "amountOfVideos": 118},
-    {"title": "Travel Insurance", "amountOfVideos": 40},
-    {"title": "Pet Insurance", "amountOfVideos": 98},
-    {"title": "Renters Insurance", "amountOfVideos": 81},
-    {"title": "Umbrella Insurance", "amountOfVideos": 63},
-    {"title": "Critical Illness Insurance", "amountOfVideos": 143},
-    {"title": "Disability Insurance", "amountOfVideos": 97},
-    {"title": "Long-Term Care Insurance", "amountOfVideos": 220},
-    {"title": "Medicare", "amountOfVideos": 175},
-    {"title": "Medicaid", "amountOfVideos": 312},
-    {"title": "Social Security", "amountOfVideos": 248},
-    {"title": "Retirement Accounts", "amountOfVideos": 191},
-    {"title": "401(k)", "amountOfVideos": 55}
-	]
+  "tags": [
+    {
+      "title": "React",
+      "slug": "old",
+      "amountOfVideos": 129,
+      "id": "8371"
+    },
+    {
+      "title": "Angular",
+      "slug": "old",
+      "amountOfVideos": 84,
+      "id": "2d40"
+    },
+    {
+      "title": "Vue",
+      "slug": "old",
+      "amountOfVideos": 203,
+      "id": "4250"
+    },
+    {
+      "title": "Python",
+      "slug": "old",
+      "amountOfVideos": 175,
+      "id": "fb51"
+    },
+    {
+      "title": "Java",
+      "slug": "old",
+      "amountOfVideos": 312,
+      "id": "466d"
+    },
+    {
+      "title": "JavaScript",
+      "slug": "old",
+      "amountOfVideos": 248,
+      "id": "6a1b"
+    },
+    {
+      "title": "C++",
+      "slug": "old",
+      "amountOfVideos": 191,
+      "id": "543b"
+    },
+    {
+      "title": "HTML",
+      "slug": "old",
+      "amountOfVideos": 55,
+      "id": "28eb"
+    },
+    {
+      "title": "CSS",
+      "slug": "old",
+      "amountOfVideos": 107,
+      "id": "3ebb"
+    },
+    {
+      "title": "Node.js",
+      "slug": "old",
+      "amountOfVideos": 93,
+      "id": "548a"
+    },
+    {
+      "title": "SQL",
+      "slug": "old",
+      "amountOfVideos": 167,
+      "id": "5568"
+    },
+    {
+      "title": "MongoDB",
+      "slug": "old",
+      "amountOfVideos": 72,
+      "id": "28fe"
+    },
+    {
+      "title": "Django",
+      "slug": "old",
+      "amountOfVideos": 118,
+      "id": "111e"
+    },
+    {
+      "title": "Flask",
+      "slug": "old",
+      "amountOfVideos": 40,
+      "id": "b827"
+    },
+    {
+      "title": "Ruby on Rails",
+      "slug": "old",
+      "amountOfVideos": 98,
+      "id": "6b17"
+    },
+    {
+      "title": "Swift",
+      "slug": "old",
+      "amountOfVideos": 81,
+      "id": "0cec"
+    },
+    {
+      "title": "Kotlin",
+      "slug": "old",
+      "amountOfVideos": 63,
+      "id": "62da"
+    },
+    {
+      "title": "TensorFlow",
+      "slug": "old",
+      "amountOfVideos": 143,
+      "id": "e691"
+    },
+    {
+      "title": "PyTorch",
+      "slug": "old",
+      "amountOfVideos": 97,
+      "id": "e07b"
+    },
+    {
+      "title": "Machine Learning",
+      "slug": "old",
+      "amountOfVideos": 220,
+      "id": "4aee"
+    },
+    {
+      "title": "Deep Learning",
+      "slug": "old",
+      "amountOfVideos": 175,
+      "id": "4974"
+    },
+    {
+      "title": "Artificial Intelligence",
+      "slug": "old",
+      "amountOfVideos": 312,
+      "id": "a81e"
+    },
+    {
+      "title": "Data Science",
+      "slug": "old",
+      "amountOfVideos": 248,
+      "id": "11fb"
+    },
+    {
+      "title": "Big Data",
+      "slug": "old",
+      "amountOfVideos": 191,
+      "id": "50ed"
+    },
+    {
+      "title": "Blockchain",
+      "slug": "old",
+      "amountOfVideos": 55,
+      "id": "9b91"
+    },
+    {
+      "title": "Cryptocurrency",
+      "slug": "old",
+      "amountOfVideos": 107,
+      "id": "aab0"
+    },
+    {
+      "title": "Cybersecurity",
+      "slug": "old",
+      "amountOfVideos": 93,
+      "id": "c1f6"
+    },
+    {
+      "title": "Network Security",
+      "slug": "old",
+      "amountOfVideos": 167,
+      "id": "b6b4"
+    },
+    {
+      "title": "Web Development",
+      "slug": "old",
+      "amountOfVideos": 72,
+      "id": "929f"
+    },
+    {
+      "title": "Mobile Development",
+      "slug": "old",
+      "amountOfVideos": 118,
+      "id": "3109"
+    },
+    {
+      "title": "Game Development",
+      "slug": "old",
+      "amountOfVideos": 40,
+      "id": "d6ed"
+    },
+    {
+      "title": "Virtual Reality",
+      "slug": "old",
+      "amountOfVideos": 98,
+      "id": "2e8f"
+    },
+    {
+      "title": "Augmented Reality",
+      "slug": "old",
+      "amountOfVideos": 81,
+      "id": "a6e7"
+    },
+    {
+      "title": "iOS Development",
+      "slug": "old",
+      "amountOfVideos": 63,
+      "id": "189e"
+    },
+    {
+      "title": "Android Development",
+      "slug": "old",
+      "amountOfVideos": 143,
+      "id": "e10f"
+    },
+    {
+      "title": "UI/UX Design",
+      "slug": "old",
+      "amountOfVideos": 97,
+      "id": "4f57"
+    },
+    {
+      "title": "Graphic Design",
+      "slug": "old",
+      "amountOfVideos": 220,
+      "id": "5ba9"
+    },
+    {
+      "title": "Digital Marketing",
+      "slug": "old",
+      "amountOfVideos": 175,
+      "id": "db40"
+    },
+    {
+      "title": "Content Marketing",
+      "slug": "old",
+      "amountOfVideos": 312,
+      "id": "1461"
+    },
+    {
+      "title": "Social Media Marketing",
+      "slug": "old",
+      "amountOfVideos": 248,
+      "id": "04f5"
+    },
+    {
+      "title": "SEO",
+      "slug": "old",
+      "amountOfVideos": 191,
+      "id": "bf8e"
+    },
+    {
+      "title": "SEM",
+      "slug": "old",
+      "amountOfVideos": 55,
+      "id": "5601"
+    },
+    {
+      "title": "Email Marketing",
+      "slug": "old",
+      "amountOfVideos": 107,
+      "id": "e574"
+    },
+    {
+      "title": "Affiliate Marketing",
+      "slug": "old",
+      "amountOfVideos": 93,
+      "id": "d977"
+    },
+    {
+      "title": "E-commerce",
+      "slug": "old",
+      "amountOfVideos": 167,
+      "id": "638f"
+    },
+    {
+      "title": "Dropshipping",
+      "slug": "old",
+      "amountOfVideos": 72,
+      "id": "bfe8"
+    },
+    {
+      "title": "Entrepreneurship",
+      "slug": "old",
+      "amountOfVideos": 118,
+      "id": "8249"
+    },
+    {
+      "title": "Startup",
+      "slug": "old",
+      "amountOfVideos": 40,
+      "id": "d6f2"
+    },
+    {
+      "title": "Business Development",
+      "slug": "old",
+      "amountOfVideos": 98,
+      "id": "9c29"
+    },
+    {
+      "title": "Product Management",
+      "slug": "old",
+      "amountOfVideos": 81,
+      "id": "6d9a"
+    },
+    {
+      "title": "Project Management",
+      "slug": "old",
+      "amountOfVideos": 63,
+      "id": "d9ef"
+    },
+    {
+      "title": "Agile Methodology",
+      "slug": "old",
+      "amountOfVideos": 143,
+      "id": "52bc"
+    },
+    {
+      "title": "Scrum",
+      "slug": "old",
+      "amountOfVideos": 97,
+      "id": "e031"
+    },
+    {
+      "title": "Lean Startup",
+      "slug": "old",
+      "amountOfVideos": 220,
+      "id": "f4c7"
+    },
+    {
+      "title": "Leadership",
+      "slug": "old",
+      "amountOfVideos": 175,
+      "id": "45d1"
+    },
+    {
+      "title": "Management",
+      "slug": "old",
+      "amountOfVideos": 312,
+      "id": "4d56"
+    },
+    {
+      "title": "Finance",
+      "slug": "old",
+      "amountOfVideos": 248,
+      "id": "21ff"
+    },
+    {
+      "title": "Accounting",
+      "slug": "old",
+      "amountOfVideos": 191,
+      "id": "b8f9"
+    },
+    {
+      "title": "Investing",
+      "slug": "old",
+      "amountOfVideos": 55,
+      "id": "c11d"
+    },
+    {
+      "title": "Personal Finance",
+      "slug": "old",
+      "amountOfVideos": 107,
+      "id": "945a"
+    },
+    {
+      "title": "Real Estate",
+      "slug": "old",
+      "amountOfVideos": 93,
+      "id": "d1f1"
+    },
+    {
+      "title": "Stock Market",
+      "slug": "old",
+      "amountOfVideos": 167,
+      "id": "c511"
+    },
+    {
+      "title": "Cryptocurrency Trading",
+      "slug": "old",
+      "amountOfVideos": 72,
+      "id": "6922"
+    },
+    {
+      "title": "Forex Trading",
+      "slug": "old",
+      "amountOfVideos": 118,
+      "id": "30b3"
+    },
+    {
+      "title": "Options Trading",
+      "slug": "old",
+      "amountOfVideos": 40,
+      "id": "8079"
+    },
+    {
+      "title": "Commodities Trading",
+      "slug": "old",
+      "amountOfVideos": 98,
+      "id": "86d4"
+    },
+    {
+      "title": "Futures Trading",
+      "slug": "old",
+      "amountOfVideos": 81,
+      "id": "b642"
+    },
+    {
+      "title": "Technical Analysis",
+      "slug": "old",
+      "amountOfVideos": 63,
+      "id": "2bc3"
+    },
+    {
+      "title": "Fundamental Analysis",
+      "slug": "old",
+      "amountOfVideos": 143,
+      "id": "012b"
+    },
+    {
+      "title": "Risk Management",
+      "slug": "old",
+      "amountOfVideos": 97,
+      "id": "ef18"
+    },
+    {
+      "title": "Trading Psychology",
+      "slug": "old",
+      "amountOfVideos": 220,
+      "id": "2940"
+    },
+    {
+      "title": "Portfolio Management",
+      "slug": "old",
+      "amountOfVideos": 175,
+      "id": "6181"
+    },
+    {
+      "title": "Wealth Management",
+      "slug": "old",
+      "amountOfVideos": 312,
+      "id": "6430"
+    },
+    {
+      "title": "Retirement Planning",
+      "slug": "old",
+      "amountOfVideos": 248,
+      "id": "03a3"
+    },
+    {
+      "title": "Tax Planning",
+      "slug": "old",
+      "amountOfVideos": 191,
+      "id": "c15d"
+    },
+    {
+      "title": "Estate Planning",
+      "slug": "old",
+      "amountOfVideos": 55,
+      "id": "3db9"
+    },
+    {
+      "title": "Insurance",
+      "slug": "old",
+      "amountOfVideos": 107,
+      "id": "40a2"
+    },
+    {
+      "title": "Health Insurance",
+      "slug": "old",
+      "amountOfVideos": 93,
+      "id": "f345"
+    },
+    {
+      "title": "Life Insurance",
+      "slug": "old",
+      "amountOfVideos": 167,
+      "id": "56b1"
+    },
+    {
+      "title": "Car Insurance",
+      "slug": "old",
+      "amountOfVideos": 72,
+      "id": "7854"
+    },
+    {
+      "title": "Home Insurance",
+      "slug": "old",
+      "amountOfVideos": 118,
+      "id": "ce21"
+    },
+    {
+      "title": "Travel Insurance",
+      "slug": "old",
+      "amountOfVideos": 40,
+      "id": "5f00"
+    },
+    {
+      "title": "Pet Insurance",
+      "slug": "old",
+      "amountOfVideos": 98,
+      "id": "1a28"
+    },
+    {
+      "title": "Renters Insurance",
+      "slug": "old",
+      "amountOfVideos": 81,
+      "id": "a5aa"
+    },
+    {
+      "title": "Umbrella Insurance",
+      "slug": "old",
+      "amountOfVideos": 63,
+      "id": "47b9"
+    },
+    {
+      "title": "Critical Illness Insurance",
+      "slug": "old",
+      "amountOfVideos": 143,
+      "id": "b840"
+    },
+    {
+      "title": "Disability Insurance",
+      "slug": "old",
+      "amountOfVideos": 97,
+      "id": "a36f"
+    },
+    {
+      "title": "Long-Term Care Insurance",
+      "slug": "old",
+      "amountOfVideos": 220,
+      "id": "1ee2"
+    },
+    {
+      "title": "Medicare",
+      "slug": "old",
+      "amountOfVideos": 175,
+      "id": "3118"
+    },
+    {
+      "title": "Medicaid",
+      "slug": "old",
+      "amountOfVideos": 312,
+      "id": "e801"
+    },
+    {
+      "title": "Social Security",
+      "slug": "old",
+      "amountOfVideos": 248,
+      "id": "520d"
+    },
+    {
+      "title": "Retirement Accounts",
+      "slug": "old",
+      "amountOfVideos": 191,
+      "id": "6890"
+    },
+    {
+      "title": "401(k)",
+      "slug": "old",
+      "amountOfVideos": 55,
+      "id": "fdc2"
+    },
+    {
+      "id": "d765",
+      "title": "Node",
+      "slug": "node",
+      "amountOfVideos": 0
+    },
+    {
+      "id": "d78e",
+      "title": "React",
+      "slug": "react",
+      "amountOfVideos": 0
+    }
+  ]
 }
